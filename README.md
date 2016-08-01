@@ -1,0 +1,2 @@
+# Craze
+A random site
