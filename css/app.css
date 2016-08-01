@@ -83,3 +83,33 @@ nav ul li a:hover {
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
 }
+.nav-icon:before {
+  content: "";
+  margin-top: -18px;
+}
+.nav-icon:after {
+  content: "";
+  margin-top: 18px;
+}
+#toggle:checked ~ nav {
+  opacity: 1;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+#toggle:checked ~ .nav-icon {
+  background: rgba(255,0,0,0);
+}
+#toggle:checked ~ .nav-icon:before {
+  -webkit-transform: rotate(-225deg);
+          transform: rotate(-225deg);
+  margin-top: 0;
+}
+#toggle:checked ~ .nav-icon:after {
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg);
+  margin-top: 0;
+}
+#toggle:checked ~ nav ul li {
+  -webkit-transform: rotateY(0deg) scale(1);
+          transform: rotateY(0deg) scale(1);
+}
