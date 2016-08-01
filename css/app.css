@@ -3,15 +3,16 @@ body {
   width: 100%;
   height: 100%;
   overflow-x: hidden;
-  background: -webkit-linear-gradient(SlateBlue, RoyalBlue);
-  background: linear-gradient(SlateBlue, RoyalBlue);
-}
-header {
   background: url('https://images.unsplash.com/photo-1444858345149-8ff40887589b?crop=entropy&fit=crop&fm=jpg&h=1325&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1700') center center / cover no-repeat;
-   height: 100%;
+  /*background: -webkit-linear-gradient(SlateBlue, RoyalBlue);
+  background: linear-gradient(SlateBlue, RoyalBlue);*/
+}
+/*header {
+  background: url('https://images.unsplash.com/photo-1444858345149-8ff40887589b?crop=entropy&fit=crop&fm=jpg&h=1325&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1700') center center / cover no-repeat;
+   height: 100;
   width: 100%;
   z-index: 10;
-}
+}*/
 
 *,
 *:before,
@@ -38,7 +39,7 @@ nav ul li {
   width: 100%;
   height: calc(100% /4);
   border-bottom: 1px solid rgba(255,255,255,0.3);
-  background: rgba(255,255,255,0.15);
+  /*background: rgba(255,255,255,0.15);*/
   -webkit-perspective: 0px;
           perspective: 0px;
   -webkit-transform: rotateX(-90deg) scale(0.5);
