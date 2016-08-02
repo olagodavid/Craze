@@ -1,0 +1,23 @@
+@import url('http://fonts.googleapis.com/css?family=Lato:300');
+@import url('http://weloveiconfonts.com/api/?family=entypo');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+/*body {
+  background: #ddd;
+}*/
+
+.content {
+  padding: 30px;
+  font: 300 40px Lato, sans-serif;
+  text-align: center;
+  color: #999;
+  background: #eee;
+}
