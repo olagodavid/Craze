@@ -78,3 +78,33 @@ text-align: center;
 width: 100%;
 margin: 0px 0 0 -50%; 
 }
+#tabbed-interface ul li a span {
+font-size: 2.3em;
+position: absolute;
+top: 28%;
+left: 50%;
+width: 80%;
+margin: 0px 0 0 -40%; 
+}
+
+
+li.work,  li.info, #tab1,  #tab8 {background: #3399ff; 
+ 
+	
+}
+
+li.news, #tab2, #tab8   { background: #cc0033;
+
+}
+li.lockin , li.contact, #tab3, #tab7 { background: #03A8A6; 
+}
+
+
+
+li.cloud , li.mobile,  #tab4 , #tab9{background: #6633cc;
+
+}
+
+li.labs,  #tab5{background: #009933;
+
+}
