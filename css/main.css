@@ -171,3 +171,76 @@ li.mobile {
   left: 99%;
    margin: 0 0 0 -30%;
 }
+#tabbed-interface{
+    
+margin: 0%; 
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+width: 100%;
+height: 100%;
+padding-left: 0%; 
+color:white;
+font-weight:300;
+position:absolute;
+z-index: 10 ; 
+}
+
+
+.box-content{ 
+position: relative; 
+padding: 16px 15px 0 15px; 
+}
+.box-content h1 {
+font-size: 3em;
+margin-bottom: 0.5em; 
+}
+.box-content p  {
+font-size: 1.7em;
+line-height: 1.5em; 
+}
+.box-content a {
+font-size: 2.7em;
+cursor: pointer; 
+position: absolute;
+right: 12px;
+top: 9px;
+opacity: 1; 
+}
+
+
+
+/*@media screen and (max-height: 568px) { 
+
+  
+#tabbed-interface ul li p {
+font-size: 1.0em;
+top: 58%; 
+}
+
+
+#tabbed-interface ul li a span {
+font-size: 2.3em;
+ top: 22%;
+  
+}
+
+}
+@media screen and (max-height: 341px) { 
+
+  
+#tabbed-interface ul li p {
+font-size: 1.0em;
+top: 67%; 
+}
+
+
+#tabbed-interface ul li a span {
+font-size: 2.3em;
+ top: 6%;
+  
+}
+
+}
+*/
