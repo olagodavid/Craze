@@ -1,0 +1,20 @@
+
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+
+/*html, body {
+background-color: #330066;
+margin:  0 auto;
+padding: 0;
+height: 100%; 
+width: 100%; 
+font-family: "Lato", sans-serif;
+max-width: 1600px; 
+}*/
