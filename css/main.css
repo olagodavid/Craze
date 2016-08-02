@@ -108,3 +108,61 @@ li.cloud , li.mobile,  #tab4 , #tab9{background: #6633cc;
 li.labs,  #tab5{background: #009933;
 
 }
+li.latest-posts,  #tab6{  background: #E25422;
+
+} 
+
+
+
+li.work {
+ top: 0;
+  left: 1%;
+  margin: 0 0 0 0; 
+}
+
+li.news { 
+top: 0;
+  left: 50%;
+  margin: 0 0 0 -15%; 
+}
+
+li.lockin  {
+ top: 0;
+  left: 99%;
+   margin: 0 0 0 -30%;
+}
+
+
+li.cloud {
+
+top: 33.33333%;
+  left: 1%;
+  
+}
+
+li.labs{
+ margin: 0% 0 0 -15%;
+top: 33.33333%;
+  left: 50%;
+  
+}
+
+
+li.latest-posts {  
+top: 33.33333%;
+  left: 99%;
+  margin: 0 0 0 -30%;
+} 
+
+
+li.contact {
+ top: 66.66666%;
+  left: 1%;
+	
+}
+
+li.info { 
+top: 66.66666%;
+  left: 50%;
+   margin: 0% 0 0 -15%
+}
